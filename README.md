@@ -14,9 +14,11 @@ Our novel approach utilizes **decision-level fusion** to combine outputs from mu
 
 ## 🌟 Key Features
 
-- **Transfer Learning Techniques:** Leverages pretrained models to improve performance.
+- **Transfer Learning Techniques:** Leverages pre-trained models to improve performance.
 - **Fusion-Based Approach:** Decision-level fusion aggregates diverse outputs for reliable tumor classification.
 - **Advanced Image Processing:** Incorporates Otsu Thresholding and CLAHE to improve image quality and classification precision.
+
+---
 
 ## 🧬 Tumor Types Addressed
 This research encompasses a variety of tumor types, including:
@@ -27,6 +29,8 @@ This research encompasses a variety of tumor types, including:
 - Medulloblastomas
 - Lymphomas
 
+---
+
 ## 📈 Model Performance Overview
 
 | Model        | Accuracy (%) |
@@ -35,16 +39,52 @@ This research encompasses a variety of tumor types, including:
 | GoogLeNet    | 95.36        |
 | VGG-19       | 91.24        |
 
+---
+
+## 📊 Datasets of Brain Tumors
+
+The datasets used in this study are outlined below:
+
+| **Name**               | **Description**                                                                                          | **Web Link**                                               |
+|-------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| **BRATS**              | Contains BRATS 2018, 2019, 2020, and 2021 datasets                                                      | [BRATS Segmentation](http://braintumorsegmentation.org/)   |
+| **TCGA LGG**           | MRI scans: Around 500 T1-weighted and T2-weighted MRI                                                   | [TCGA Portal](https://www.cbioportal.org/)                |
+| **Figshare**           | A smaller dataset with well-defined classes                                                             | [Figshare Dataset](https://figshare.com/)                 |
+| **Harvard Medical**    | Includes a variety of specific data images                                                              | [Harvard Dataset](https://dataverse.harvard.edu/)         |
+| **BrainWeb**           | 32 T1-weighted, 32 T2-weighted, 32 FLAIR, and 32 DTI volumes                                            | [BrainWeb](https://brainweb.bic.mni.mcgill.ca/)           |
+| **OASIS**              | Structural MRI from 416 subjects                                                                        | [OASIS Dataset](https://www.oasis-brains.org/)            |
+
+---
+
+## 📷 Visualization
+
+### Literature Review Classification
+![Literature Review Classification](visualizations/1.png)
+
+### Combined Dataset Utilized in this Study
+![Combined Dataset Utilized in this Study](visualizations/2.png)
+
+### Image Pre-Processing Workflow
+![Image Pre-Processing Workflow](visualizations/3.png)
+
+### Illustration of Training Procedure
+![Illustration of Training Procedure](visualizations/4.png)
+
+---
+
 ## 🛠️ Technologies Used
 
 - **Deep Learning Frameworks:** TensorFlow, Keras
 - **Image Processing Techniques:** CLAHE (Contrast Limited Adaptive Histogram Equalization), Otsu Thresholding, Gaussian Filter
 - **Fusion Technique:** Decision-level fusion for enhanced accuracy and robustness
 
+---
+
 ## 📄 Full Paper Access
 
-For the complete research paper, including detailed methodologies and results, visit the IEEE link below:
+For the complete research paper, including detailed methodologies and results, visit the IEEE link below:  
 [Access Full Paper on IEEE (Published Part of IIT-Mandi)](AN%20experimental%20study%20on%20Brain%20Tumor%20Detection.pdf) 🔗
+
 ---
 
 ## 💌 Contact
@@ -55,3 +95,5 @@ SRM University – AP, Andhra Pradesh, India
 ✉️ Email: csnutakki@gmail.com  
 
 ---
+
+
