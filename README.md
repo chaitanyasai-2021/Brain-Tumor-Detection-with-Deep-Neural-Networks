@@ -44,7 +44,7 @@ This research encompasses a variety of tumor types, including:
 ## 📄 Full Paper Access
 
 For the complete research paper, including detailed methodologies and results, visit the IEEE link below:
-[Access Full Paper on IEEE (Published Part of IIT-Mandi)](#) 🔗
+[Access Full Paper on IEEE (Published Part of IIT-Mandi)](AN experimental study on Brain Tumor Detection.pdf) 🔗
 ---
 
 ## 💌 Contact
